@@ -6,3 +6,4 @@ public class Task1 {
 	    System.out.print("Java攻略の道");
     }
 }
+
