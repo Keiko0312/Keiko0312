@@ -26,7 +26,7 @@ public class Task6 {
 			default:
 				Rome="unknown";
 				break;
-		};
+		}
 		System.out.println("1から5までの数字を入力してください");
 		System.out.println(number);
 		System.out.println(number+ " -> "+Rome);

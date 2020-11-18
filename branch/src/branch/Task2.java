@@ -8,16 +8,17 @@ public class Task2 {
 		int number=sc.nextInt();
 
 		if(number<10) {
-		System.out.println("数字を入力してください");
-		System.out.println(number);
-		System.out.println("値: "+0+number);
+		   System.out.println("数字を入力してください");
+		   System.out.println(number);
+		   System.out.println("値: "+0+number);
 		}
-		if(number>=10) {
+		else if(number>=10) {
 			System.out.println("数字を入力してください");
 			System.out.println(number);
 			System.out.println("値: "+number);
-			sc.close();
+
 		}
+		sc.close();
 
 	}
 
